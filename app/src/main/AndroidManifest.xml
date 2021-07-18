@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cy.travelking">
+
+    <!--高德地图包、搜索包需要的基础权限-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!--用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <!--用于访问GPS定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <!--用于获取运营商信息，用于支持提供运营商信息相关的接口-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <!--用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <!--用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <!--用于读取手机当前的状态-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <!--用于申请调用A-GPS模块-->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"></uses-permission>
+    <!--用于申请获取蓝牙信息进行室内定位-->
+    <uses-permission android:name="android.permission.BLUETOOTH"></uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:resizeableActivity="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--适配华为（huawei）刘海屏-->
+        <meta-data
+            android:name="android.notch_support"
+            android:value="true"/>
+        <!--适配小米（xiaomi）刘海屏-->
+        <meta-data
+            android:name="notch.config"
+            android:value="portrait|landscape" />
+        <!--高德KEY-->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="ee574392e8604ca846e711e0cc3d9eb8"/>
+
+        <service android:name="com.amap.api.location.APSService"></service>
+
+        <activity android:name=".activity.SplahActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|fontScale"/>
+        <activity android:name=".activity.ChooseTimeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|fontScale"/>
+        <activity android:name=".activity.WebActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|fontScale"/>
+        <activity android:name=".activity.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|fontScale"/>
+        <activity android:name=".activity.HistoryOrderAcitvity"
+            android:configChanges="keyboardHidden|orientation|screenSize|fontScale"/>
+        <activity android:name=".activity.SettledListAcitvity"
+            android:configChanges="keyboardHidden|orientation|screenSize|fontScale"/>
+        <activity android:name=".activity.WaitCustomerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|fontScale"/>
+        <activity android:name=".activity.NaviActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|fontScale"/>
+        <activity android:name=".activity.RouteDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|fontScale"/>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.cy.travelking.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths_public"></meta-data>
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.cy.travelking.widget.TitleBar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv_time"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#F56313"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="#F56313"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:id="@+id/time_picker_ll"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/time_picker"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="18dp">
+
+            <cn.carbswang.android.numberpickerview.library.NumberPickerView
+                android:id="@+id/picker_year"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:npv_ItemPaddingHorizontal="5dp"
+                app:npv_ItemPaddingVertical="5dp"
+                app:npv_RespondChangeInMainThread="false"
+                app:npv_ShownCount="3"
+                app:npv_TextSizeNormal="16sp"
+                app:npv_TextSizeSelected="20sp"
+                app:npv_WrapSelectorWheel="false" />
+
+            <cn.carbswang.android.numberpickerview.library.NumberPickerView
+                android:id="@+id/picker_month"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="picker_minute"
+                app:npv_ItemPaddingHorizontal="5dp"
+                app:npv_ItemPaddingVertical="5dp"
+                app:npv_ShownCount="3"
+                app:npv_TextArray="@array/month_display"
+                app:npv_TextSizeNormal="16sp"
+                app:npv_TextSizeSelected="20sp"
+                app:npv_WrapSelectorWheel="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

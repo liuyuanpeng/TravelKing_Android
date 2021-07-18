@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc35ca64-d2a3-4ea5-b3d8-b862187a6ec2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_29" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/tourking.keystore" />
+    <option name="KEY_ALIAS" value="tourking" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="ProjectId" id="1eozmQDoFIlZRAc1QaNdFDc1Afu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="app" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/res/mipmap-xhdpi" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="true" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/res/mipmap-xhdpi" />
+      <recent name="$PROJECT_DIR$/src/main/res/layout" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc35ca64-d2a3-4ea5-b3d8-b862187a6ec2" name="Default Changelist" comment="" />
+      <created>1579189262913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579189262913</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="101" key="#app" timestamp="1611043739594">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="413" y="101" key="#app/0.23.1440.877@0.23.1440.877" timestamp="1611043739594" />
+    <state width="448" height="438" key="DebuggerActiveHint" timestamp="1611046948629">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="448" height="438" key="DebuggerActiveHint/0.23.1440.877@0.23.1440.877" timestamp="1611046948629" />
+    <state width="679" height="269" key="GridCell.Tab.0.bottom" timestamp="1611285944245">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="679" height="269" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1611285944245" />
+    <state width="679" height="269" key="GridCell.Tab.0.center" timestamp="1611285944245">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="679" height="269" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1611285944245" />
+    <state width="679" height="269" key="GridCell.Tab.0.left" timestamp="1611285944245">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="679" height="269" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1611285944245" />
+    <state width="679" height="269" key="GridCell.Tab.0.right" timestamp="1611285944245">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="679" height="269" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1611285944245" />
+    <state width="679" height="269" key="GridCell.Tab.1.bottom" timestamp="1611285944247">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="679" height="269" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1611285944247" />
+    <state width="679" height="269" key="GridCell.Tab.1.center" timestamp="1611285944246">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="679" height="269" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1611285944246" />
+    <state width="679" height="269" key="GridCell.Tab.1.left" timestamp="1611285944246">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="679" height="269" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1611285944246" />
+    <state width="679" height="269" key="GridCell.Tab.1.right" timestamp="1611285944246">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="679" height="269" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1611285944246" />
+    <state x="221" y="100" key="SettingsEditor" timestamp="1611394856082">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1611394856082" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1611415173628">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1611415173628" />
+    <state x="120" y="143" width="1200" height="637" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1611395088311">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="120" y="143" width="1200" height="637" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1440.877@0.23.1440.877" timestamp="1611395088311" />
+    <state x="120" y="143" width="1200" height="637" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1611387690415">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="120" y="143" width="1200" height="637" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1611387690415" />
+    <state x="120" y="143" width="1200" height="637" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1611387606599">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="120" y="143" width="1200" height="637" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1611387606599" />
+    <state x="390" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1611288575815">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="390" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1611288575815" />
+    <state x="353" y="220" width="817" height="486" key="find.popup" timestamp="1611482213793">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="353" y="218" width="817" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1611415157563" />
+    <state x="353" y="220" width="817" height="486" key="find.popup/0.25.1440.875@0.25.1440.875" timestamp="1611482213793" />
+    <state x="385" y="223" width="670" height="676" key="search.everywhere.popup" timestamp="1611415149523">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="223" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1611415149523" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cy/travelking/activity/NaviActivity.java</url>
+          <line>497</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cy/travelking/activity/NaviActivity.java</url>
+          <line>210</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cy/travelking/activity/NaviActivity.java</url>
+          <line>218</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cy/travelking/activity/NaviActivity.java</url>
+          <line>221</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cy/travelking/activity/NaviActivity.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cy/travelking/activity/NaviActivity.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cy/travelking/activity/NaviActivity.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cy/travelking/activity/NaviActivity.java</url>
+          <line>178</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cy/travelking/activity/NaviActivity.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cy/travelking/activity/RouteDetailActivity.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cy/travelking/activity/RouteDetailActivity.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cy/travelking/adapter/RouteDetailAdapter.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/corner_white">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="申请改派"
+        android:textColor="@color/titleGreen"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tv"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ps" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="您将申请改派该订单"
+        android:textColor="@color/textBlack"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:layout_centerHorizontal="true"
+        android:text="是否确认改派？"
+        android:textColor="@color/textBlack"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/v"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/appBg"/>
+
+    <LinearLayout
+        android:layout_below="@id/v"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/textBlack"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <include layout="@layout/line_v" />
+
+        <RelativeLayout
+            android:id="@+id/confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="确认"
+                android:textColor="@color/textBlack"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
