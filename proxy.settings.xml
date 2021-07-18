@@ -1,0 +1,11 @@
+<application>
+  <component name="HttpConfigurable">
+    <option name="PROXY_TYPE_IS_SOCKS" value="true" />
+    <option name="USE_PROXY_PAC" value="true" />
+    <option name="PROXY_HOST" value="127.0.0.1" />
+    <option name="PROXY_PORT" value="1081" />
+    <option name="PROXY_EXCEPTIONS" value="localhost; 127.0.0.1; &lt;local&gt;" />
+    <option name="USE_PAC_URL" value="true" />
+    <option name="PAC_URL" value="mirrors.neusoft.edu.cn:80" />
+  </component>
+</application>
